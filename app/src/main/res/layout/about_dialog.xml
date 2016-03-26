@@ -1,0 +1,86 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"	
+	>
+	<RelativeLayout
+	              android:id="@+id/layout_root"
+	              android:orientation="vertical"
+	              android:layout_width="fill_parent"
+	              android:layout_height="fill_parent"
+	              android:padding="10dp"
+	              >
+	              
+	              <!--  
+	    <TextView 
+	    		android:id="@+id/ploy"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:textColor="#FFF"
+	              android:text="Sick of ads? Want to contribute to the developer to ensure future updates? Buy the No-Ad key for just $2."
+	              />
+	              
+        <Button android:id="@+id/buy_button"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+	              android:text="Buy No-Ads Key" 
+	              android:layout_below="@id/ploy"/>
+	              -->
+	              
+	              
+	    <TextView android:id="@+id/intro"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:textColor="#FFF"
+	              />
+	
+	    <ImageView android:id="@+id/image_health"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_below="@id/intro"
+	               android:layout_marginRight="10dp"
+	               android:layout_marginTop="10dp"
+	               />
+	    <TextView android:id="@+id/text_health"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_below="@id/intro"
+				  android:layout_marginTop="10dp"
+	  			  android:layout_marginLeft="30px"
+	              android:textColor="#FFF"
+	              />
+	              
+		<ImageView android:id="@+id/image_water"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_below="@id/text_health"
+	               android:layout_marginRight="10dp"
+	               android:layout_marginTop="10dp"
+	               />
+	    <TextView android:id="@+id/text_water"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_below="@id/text_health"
+	              android:layout_marginTop="10dp"
+	              android:layout_marginLeft="30px"
+	              android:textColor="#FFF"
+	              />
+	              
+		<TextView android:id="@+id/items"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:layout_below="@id/text_water"
+	              android:layout_marginTop="10dp"
+	              android:textColor="#FFF"
+	              />
+	    <TextView android:id="@+id/about"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:layout_below="@id/items"
+	              android:layout_marginTop="10dp"
+	              android:textSize="10px"
+	              android:textColor="#FFF"
+	              android:gravity="center_horizontal"
+	              />
+	</RelativeLayout>
+</ScrollView>

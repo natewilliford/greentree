@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pseudoblue.greentree"
+    android:versionName="1.2.1"
+    android:versionCode="12">
+    <application android:label="@string/app_name" android:icon="@drawable/tree_icon">
+        <activity android:name="com.pseudoblue.greentree.VirtualTree"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden"
+                  android:finishOnTaskLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+	    <!-- The application's publisher ID assigned by AdMob -->
+	    <meta-data android:value="a14b58e4c9de11c" android:name="ADMOB_PUBLISHER_ID" />
+	</application>
+    <uses-sdk android:minSdkVersion="3" />
+	<!-- AdMob SDK permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

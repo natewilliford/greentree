@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Green Tree</string>
+
+<string name="menu_water_tree">Water Tree</string>
+<string name="menu_settings">Settings</string>
+<string name="tree_sick_message">Your tree is sick. Make sure you are not under or over watering it.</string>
+<string name="tree_overwatered_message">Your tree is over watered! Wait for more water to be absorbed before watering again.</string>
+<string name="toast_intro">Welcome to Green Tree! Water your tree periodically to keep it alive, and check on it often. </string>
+<string name="dialog_end_trial">The game has reached the end of the trial.  Please purchase the full version to continue.</string>
+<string name="dialog_exit">Exit</string>
+<string name="dialog_restart">Restart</string>
+<string name="dialog_intro">Welcome to Virtual Tree! Water your tree periodically to keep it alive, and check on it often.  You may encounter obstacles.</string>
+<string name="dialog_start">Get Started</string>
+<string name="dialog_game_over">I\'m sorry, your tree has died. Remember to check it often to see if it has enough water. You can always use items if you need help.</string>
+<string name="dialog_confirm">Confirm</string>
+<string name="dialog_cancel">Cancel</string>
+<string name="dialog_restart_confirm">Are you sure you want to restart with a new tree?</string>
+<string name="dialog_close">Close</string>
+<string name="dialog_about">Virtual Tree was created by Nathan Williford</string>
+<string name="dialog_use_item_bug_spray">Use bug spray to get rid of bugs that are hurting your tree.  Use this item now?</string>
+<string name="dialog_use_item_fertilizer">User fertilizer to give your tree an instant health and growth boost. Use this item now?</string>
+<string name="dialog_use_item_sponge">A sponge will soak up some of the tree\'s water.  Use this if the tree has become over watered. Use this item now?</string>
+<string name="dialog_yes">Yes</string>
+<string name="dialog_buy_item_title">Buy an Item</string>
+<string name="dialog_use_item_title">Use an Item</string>
+<string name="not_enough">You do not have enough money to buy this item.</string>
+<string name="bought_item">You have bought</string>
+<string name="toast_intro_2">Click Help in the menu bar for more information.</string>
+<string name="dialog_pause_block">You cannot do this while the game is paused.</string>
+</resources>
